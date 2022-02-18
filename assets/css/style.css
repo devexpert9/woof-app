@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+ion-content, h1, h2, h3, h4, h5, h6, p, span, * {
+	font-family: 'Lato', sans-serif !important; 
+	letter-spacing: 0.5px;
+}
+.top-head {
+    position: relative;
+    height: 140px;
+    background: url("../images/bg1.png");
+	background-size: cover;
+    background-position: center bottom;
+}.top-head.bg-sky {
+    position: relative;
+    height: 140px;
+    background: url("../images/bg7.png");
+	background-size: cover;
+    background-position: center bottom;
+}
+.top-head .img-logo {
+    position: absolute;
+    right: 11px;
+    width: 195px;
+    bottom: 35px;
+}
+.top-head.bg-sky .img-logo {
+    bottom: 28px;
+}
+.sky-col .ttl-tp {
+    color: #9cb7ff;
+    position: relative;
+    left: 9px;
+}
+.booki, .texts h5 {
+    margin: 0;
+}
+.ttl-tp {
+    margin: 0px;
+    float: right;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #d8d8d8;
+    margin-top: -50px;
+    font-weight: 500;
+}
+.bottm-conts {
+    position: relative;
+    padding: 20px 25px;
+    display: block;
+}
+.mb-0 {
+	margin-bottom:0px !important;
+}
+.top-head.bg-blue {
+	background: url("../images/bg3.png");
+	background-size: cover;
+    background-position: center bottom;
+}
+h4.ttl-tp.txt-blus {
+    color: #a6f9ff;
+}
+.top-head.bg-prple {
+	background: url("../images/bg4.png");
+	background-size: cover;
+    background-position: center bottom;
+}
+h4.ttl-tp.txt-prple {
+    color: #d5c2fb;
+}
+
+.top-head.bg-green {
+	background: url("../images/bg5.png");
+	background-size: cover;
+    background-position: center bottom;
+	height: 200px;
+}
+h4.ttl-tp.txt-green {
+    color: #b4dead;
+}
+
+.top-head.logo-orange {
+	background: url("../images/bg6.png");
+	background-size: cover;
+    background-position: center bottom;
+
+}
+h4.ttl-tp.ttl-orange {
+    color: #f9cab4;
+}

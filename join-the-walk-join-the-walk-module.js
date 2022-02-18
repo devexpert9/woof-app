@@ -1,0 +1,153 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["join-the-walk-join-the-walk-module"],{
+
+/***/ "KQTg":
+/*!***************************************************************!*\
+  !*** ./src/app/join-the-walk/join-the-walk-routing.module.ts ***!
+  \***************************************************************/
+/*! exports provided: JoinTheWalkPageRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JoinTheWalkPageRoutingModule", function() { return JoinTheWalkPageRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _join_the_walk_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./join-the-walk.page */ "iHZD");
+
+
+
+
+const routes = [
+    {
+        path: '',
+        component: _join_the_walk_page__WEBPACK_IMPORTED_MODULE_3__["JoinTheWalkPage"]
+    }
+];
+let JoinTheWalkPageRoutingModule = class JoinTheWalkPageRoutingModule {
+};
+JoinTheWalkPageRoutingModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]],
+    })
+], JoinTheWalkPageRoutingModule);
+
+
+
+/***/ }),
+
+/***/ "WiX0":
+/*!*******************************************************!*\
+  !*** ./src/app/join-the-walk/join-the-walk.page.scss ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("ion-content .bottm-conts {\n  padding: 0px;\n}\n\nion-content h4.ttl-tp {\n  margin-right: 25px;\n}\n\nion-content .cont-calef {\n  padding: 20px 15px;\n  margin-top: 20px;\n  display: block;\n}\n\nion-content .shr-loc {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\nion-content .shr-loc h3 {\n  margin: 0px;\n  font-size: 18px;\n  font-weight: 600;\n  color: #7d7d7d;\n  text-transform: uppercase;\n}\n\nion-content ul.icons-sets {\n  position: relative;\n  z-index: 11;\n  display: inline-block;\n  padding: 3px;\n  margin: 0px;\n  background: #babcbb;\n  border-radius: 50px;\n}\n\nion-content ul.icons-sets li {\n  display: inline-block;\n}\n\nion-content ul.icons-sets li span {\n  padding: 3px 8px;\n  display: inline-block;\n  border-radius: 50px;\n}\n\nion-content ul.icons-sets li span img {\n  height: 20px;\n}\n\nion-content ul.icons-sets li span.activ-ico {\n  background: #fff;\n  padding: 3px 15px;\n}\n\nion-content ul.icons-sets li span.activ-ico img {\n  filter: brightness(0.5);\n}\n\nion-content ul.div-grd {\n  padding: 0px;\n  margin: 0px;\n  display: block;\n  list-style: none;\n  white-space: nowrap;\n  overflow: auto;\n}\n\nion-content ul.div-grd li {\n  display: inline-block;\n  width: 100px;\n  text-align: center;\n  margin-right: 12px;\n  padding: 10px;\n  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);\n  border-radius: 10px;\n  margin-top: 12px;\n  min-height: 107px;\n  vertical-align: bottom;\n  margin-bottom: 15px;\n}\n\nion-content ul.div-grd li img {\n  height: 62px;\n  object-fit: cover;\n}\n\nion-content ul.div-grd li h4 {\n  font-size: 12px;\n  color: #242424;\n  letter-spacing: 0;\n  font-weight: 600;\n  margin-bottom: 3px;\n  margin-top: 5px;\n}\n\nion-content ul.div-grd li.add-ne img {\n  width: 45px;\n  height: 45px;\n  margin-top: 20px;\n}\n\nion-content .grps {\n  margin-top: 20px;\n}\n\nion-content .grps h3 {\n  margin: 0px;\n  font-size: 18px;\n  font-weight: 600;\n  color: #7d7d7d;\n  text-transform: uppercase;\n}\n\nion-content .cont-spa {\n  padding: 0px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n}\n\nion-content .cont-spa ion-segment {\n  display: flex;\n  background: #babcbb;\n  width: 84px;\n  border-radius: 50px;\n  padding: 2px;\n}\n\nion-content .cont-spa ion-segment ion-segment-button {\n  width: 40px;\n  padding: 0px;\n  --padding-start: 0px;\n  --padding-end: 0px;\n  max-width: 40px;\n  min-width: 40px;\n  height: 28px !important;\n  min-height: 28px !important;\n}\n\nion-content .cont-spa ion-segment ion-segment-button img {\n  height: 18px;\n  width: auto;\n}\n\nion-content .cont-spa ion-segment ion-segment-button.segment-button-checked {\n  width: 40px;\n  min-width: 40px;\n  --indicator-color: transparent !important;\n  --indicator-color-checked: transparent !important;\n  background: #fff;\n  border-radius: 50px;\n  --border-radius: 50px;\n  --color-checked: var(--ion-color-white)!important;\n  font-weight: 500;\n}\n\nion-content .cont-spa ion-segment ion-segment-button.segment-button-checked img {\n  filter: invert(0.5);\n}\n\nion-content .cont-dats .ttl-s {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 25px;\n}\n\nion-content .cont-dats .ttl-s h3 {\n  margin: 0px;\n  font-size: 18px;\n  font-weight: 600;\n  color: #7d7d7d;\n  text-transform: uppercase;\n}\n\nion-content .map-data img {\n  width: 100%;\n  height: 240px;\n  object-fit: cover;\n  margin-top: 20px;\n  border-radius: 10px;\n}\n\nion-content ion-list.list-pstr {\n  display: block;\n  margin-top: 20px;\n  overflow: visible;\n  --overflow: visible;\n  padding: 0px;\n}\n\nion-content ion-list.list-pstr ion-item {\n  border-radius: 15px;\n  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);\n  margin-bottom: 13px;\n  --padding-start: 0px;\n  --padding-end: 0px;\n  padding: 15px;\n  border: 1px solid #f5f5f5;\n}\n\nion-content ion-list.list-pstr ion-item ion-avatar {\n  width: 67px;\n  height: 67px;\n  margin-right: 12px;\n}\n\nion-content ion-list.list-pstr ion-item h2 {\n  font-size: 19px;\n  font-weight: 600;\n  color: rgba(0, 0, 0, 0.87);\n  margin-bottom: 5px;\n}\n\nion-content ion-list.list-pstr ion-item h2 img {\n  height: 19px;\n  vertical-align: bottom;\n  margin-right: 5px;\n}\n\nion-content ion-list.list-pstr ion-item h3 {\n  font-size: 16px;\n  font-weight: 600;\n  color: #7d7d7d;\n  margin-bottom: 7px;\n}\n\nion-content ion-list.list-pstr ion-item h3 img {\n  height: 20px;\n  vertical-align: bottom;\n  margin-right: 5px;\n}\n\nion-content ion-list.list-pstr ion-item ion-label {\n  margin: 0px;\n}\n\nion-content span.si-skt {\n  margin: 0px;\n}\n\nion-content span.si-skt img {\n  width: 30px;\n}\n\nion-content .add-new-pop {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  z-index: 11;\n  width: 100%;\n  min-height: 100%;\n  background: rgba(0, 0, 0, 0.56);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 30px;\n}\n\nion-content .add-new-pop .cont-box {\n  width: 100%;\n  background: #fff;\n  padding: 45px 20px;\n  border-radius: 20px;\n  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);\n  position: relative;\n}\n\nion-content .add-new-pop .cont-box span.clos-icos {\n  position: absolute;\n  right: -15px;\n  top: -15px;\n  z-index: 11;\n  background: #f45252;\n  width: 38px;\n  height: 38px;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 26px;\n  color: #fff;\n}\n\nion-content .add-new-pop .cont-box .cont-sf ion-input, ion-content .add-new-pop .cont-box .cont-sf ion-select {\n  --padding-start: 0px;\n  border-bottom: 1px solid #ababab;\n  font-size: 14px;\n  font-weight: 500;\n  color: #000;\n  margin-bottom: 22px;\n}\n\nion-content .add-new-pop .cont-box .dav-gr {\n  background: #bfbfbf;\n  color: #fff;\n  font-size: 30px;\n  border-radius: 50px;\n  margin-top: 13px;\n  text-transform: uppercase;\n  font-weight: 600;\n  float: right;\n  width: 42px;\n  height: 42px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXGpvaW4tdGhlLXdhbGsucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsWUFBWTtBQUFkOztBQUZBO0VBS0Usa0JBQWtCO0FBQ3BCOztBQU5BO0VBUUUsa0JBQWtCO0VBQ2xCLGdCQUFnQjtFQUNoQixjQUFhO0FBRWY7O0FBWkE7RUFhRSxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLDhCQUE4QjtBQUdoQzs7QUFsQkE7RUFpQkcsV0FBVztFQUNYLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsY0FBYztFQUNkLHlCQUF5QjtBQUs1Qjs7QUExQkE7RUF5QkUsa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxxQkFBcUI7RUFDckIsWUFBWTtFQUNaLFdBQVc7RUFDWCxtQkFBbUI7RUFDbkIsbUJBQW1CO0FBS3JCOztBQXBDQTtFQWlDRyxxQkFBcUI7QUFPeEI7O0FBeENBO0VBbUNJLGdCQUFnQjtFQUNoQixxQkFBcUI7RUFDckIsbUJBQW1CO0FBU3ZCOztBQTlDQTtFQXVDSyxZQUFZO0FBV2pCOztBQWxEQTtFQTJDSSxnQkFBZ0I7RUFDaEIsaUJBQWlCO0FBV3JCOztBQXZEQTtFQThDSyx1QkFBdUI7QUFhNUI7O0FBM0RBO0VBb0RFLFlBQVk7RUFDWixXQUFXO0VBQ1gsY0FBYztFQUNkLGdCQUFnQjtFQUNoQixtQkFBbUI7RUFDbkIsY0FBYztBQVdoQjs7QUFwRUE7RUEyREcscUJBQXFCO0VBQ3JCLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLGFBQWE7RUFDYix1Q0FBdUM7RUFDdkMsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQixpQkFBaUI7RUFDakIsc0JBQXNCO0VBQ3RCLG1CQUFtQjtBQWF0Qjs7QUFsRkE7RUF1RUksWUFBWTtFQUNaLGlCQUFpQjtBQWVyQjs7QUF2RkE7RUEyRUksZUFBZTtFQUNmLGNBQWM7RUFDZCxpQkFBaUI7RUFDakIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixlQUFlO0FB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QixXQUFXO0VBQ1gsZUFBZTtFQUNmLG1CQUFtQjtFQUNuQixnQkFBZ0I7RUFDaEIseUJBQXlCO0VBQ3pCLGdCQUFnQjtFQUNoQixZQUFZO0VBQ1osV0FBVztFQUNYLFlBQVk7RUFDWixhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHVCQUF1QjtBQXFDNUIiLCJmaWxlIjoiam9pbi10aGUtd2Fsay5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24tY29udGVudCB7XHJcblx0LmJvdHRtLWNvbnRzIHtcclxuXHRcdHBhZGRpbmc6IDBweDtcclxuXHR9XHJcblx0aDQudHRsLXRwIHtcclxuXHRcdG1hcmdpbi1yaWdodDogMjVweDtcclxuXHR9XHJcblx0LmNvbnQtY2FsZWYge1xyXG5cdFx0cGFkZGluZzogMjBweCAxNXB4O1xyXG5cdFx0bWFyZ2luLXRvcDogMjBweDtcclxuXHRcdGRpc3BsYXk6YmxvY2s7XHJcblx0fVxyXG5cdC5zaHItbG9jIHtcclxuXHRcdGRpc3BsYXk6IGZsZXg7XHJcblx0XHRhbGlnbi1pdGVtczogY2VudGVyO1xyXG5cdFx0anVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG5cdFx0aDMge1xyXG5cdFx0XHRtYXJnaW46IDBweDtcclxuXHRcdFx0Zm9udC1zaXplOiAxOHB4O1xyXG5cdFx0XHRmb250LXdlaWdodDogNjAwO1xyXG5cdFx0XHRjb2xvcjogIzdkN2Q3ZDtcclxuXHRcdFx0dGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuXHRcdH1cclxuXHR9XHJcblx0dWwuaWNvbnMtc2V0cyB7XHJcblx0XHRwb3NpdGlvbjogcmVsYXRpdmU7XHJcblx0XHR6LWluZGV4OiAxMTtcclxuXHRcdGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuXHRcdHBhZGRpbmc6IDNweDtcclxuXHRcdG1hcmdpbjogMHB4O1xyXG5cdFx0YmFja2dyb3VuZDogI2JhYmNiYjtcclxuXHRcdGJvcmRlci1yYWRpdXM6IDUwcHg7XHJcblx0XHRsaSB7XHJcblx0XHRcdGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuXHRcdFx0c3BhbiB7XHJcblx0XHRcdFx0cGFkZGluZzogM3B4IDhweDtcclxuXHRcdFx0XHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcblx0XHRcdFx0Ym9yZGVyLXJhZGl1czogNTBweDtcclxuXHRcdFx0XHRpbWcge1xyXG5cdFx0XHRcdFx0aGVpZ2h0OiAyMHB4O1xyXG5cdFx0XHRcdH1cclxuXHRcdFx0fVxyXG5cdFx0XHRzcGFuLmFjdGl2LWljbyB7XHJcblx0XHRcdFx0YmFja2dyb3VuZDogI2ZmZjtcclxuXHRcdFx0XHRwYWRkaW5nOiAzcHggMTVweDtcclxuXHRcdFx0XHRpbWcge1xyXG5cdFx0XHRcdFx0ZmlsdGVyOiBicmlnaHRuZXNzKDAuNSk7XHJcblx0XHRcdFx0fVxyXG5cdFx0XHR9XHJcblx0XHR9XHJcblx0fVxyXG5cdHVsLmRpdi1ncmQge1xyXG5cdFx0cGFkZGluZzogMHB4O1xyXG5cdFx0bWFyZ2luOiAwcHg7XHJcblx0XHRkaXNwbGF5OiBibG9jaztcclxuXHRcdGxpc3Qtc3R5bGU6IG5vbmU7XHJcblx0XHR3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG5cdFx0b3ZlcmZsb3c6IGF1dG87XHJcblx0XHRsaSB7XHJcblx0XHRcdGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuXHRcdFx0d2lkdGg6IDEwMHB4O1xyXG5cdFx0XHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblx0XHRcdG1hcmdpbi1yaWdodDogMTJweDtcclxuXHRcdFx0cGFkZGluZzogMTBweDtcclxuXHRcdFx0Ym94LXNoYWRvdzogMCAwIDE2cHggcmdiYSgwLCAwLCAwLCAwLjUpO1xyXG5cdFx0XHRib3JkZXItcmFkaXVzOiAxMHB4O1xyXG5cdFx0XHRtYXJnaW4tdG9wOiAxMnB4O1xyXG5cdFx0XHRtaW4taGVpZ2h0OiAxMDdweDtcclxuXHRcdFx0dmVydGljYWwtYWxpZ246IGJvdHRvbTtcclxuXHRcdFx0bWFyZ2luLWJvdHRvbTogMTVweDtcclxuXHRcdFx0aW1nIHtcclxuXHRcdFx0XHRoZWlnaHQ6IDYycHg7XHJcblx0XHRcdFx0b2JqZWN0LWZpdDogY292ZXI7XHJcblx0XHRcdH1cclxuXHRcdFx0aDQge1xyXG5cdFx0XHRcdGZvbnQtc2l6ZTogMTJweDtcclxuXHRcdFx0XHRjb2xvcjogIzI0MjQyNDtcclxuXHRcdFx0XHRsZXR0ZXItc3BhY2luZzogMDtcclxuXHRcdFx0XHRmb250LXdlaWdodDogNjAwO1xyXG5cdFx0XHRcdG1hcmdpbi1ib3R0b206IDNweDtcclxuXHRcdFx0XHRtYXJnaW4tdG9wOiA1cHg7XHJcblx0XHRcdH1cclxuXHRcdH1cclxuXHRcdGxpLmFkZC1uZSB7XHJcblx0XHRcdGltZyAge1xyXG5cdFx0XHRcdHdpZHRoOiA0NXB4O1xyXG5cdFx0XHRcdGhlaWdodDogNDVweDtcclxuXHRcdFx0XHRtYXJnaW4tdG9wOiAyMHB4O1xyXG5cdFx0XHR9XHJcblx0XHR9XHJcblx0fVxyXG5cdC5ncnBzIHtcclxuXHRcdG1hcmdpbi10b3A6IDIwcHg7XHJcblx0XHRoMyB7XHJcblx0XHRcdG1hcmdpbjogMHB4O1xyXG5cdFx0XHRmb250LXNpemU6IDE4cHg7XHJcblx0XHRcdGZvbnQtd2VpZ2h0OiA2MDA7XHJcblx0XHRcdGNvbG9yOiAjN2Q3ZDdkO1xyXG5cdFx0XHR0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG5cdFx0fVxyXG5cdH1cclxuXHQuY29udC1zcGEge1xyXG5cdFx0cGFkZGluZzogMHB4O1xyXG5cdFx0ZGlzcGxheTogZmxleDtcclxuXHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblx0XHRqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kO1xyXG5cdFx0aW9uLXNlZ21lbnQge1xyXG5cdFx0XHRkaXNwbGF5OiBmbGV4O1xyXG5cdFx0XHRiYWNrZ3JvdW5kOiAjYmFiY2JiO1xyXG5cdFx0XHR3aWR0aDogODRweDtcclxuXHRcdFx0Ym9yZGVyLXJhZGl1czogNTBweDtcclxuXHRcdFx0cGFkZGluZzogMnB4O1xyXG5cdFx0XHRpb24tc2VnbWVudC1idXR0b24ge1xyXG5cdFx0XHRcdHdpZHRoOiA0MHB4O1xyXG5cdFx0XHRcdHBhZGRpbmc6IDBweDtcclxuXHRcdFx0XHQtLXBhZGRpbmctc3RhcnQ6IDBweDtcclxuXHRcdFx0XHQtLXBhZGRpbmctZW5kOiAwcHg7XHJcblx0XHRcdFx0bWF4LXdpZHRoOiA0MHB4O1xyXG5cdFx0XHRcdG1pbi13aWR0aDogNDBweDtcclxuXHRcdFx0XHRoZWlnaHQ6IDI4cHghaW1wb3J0YW50O1xyXG5cdFx0XHRcdG1pbi1oZWlnaHQ6IDI4cHggIWltcG9ydGFudDtcclxuXHRcdFx0XHRpbWcge1xyXG5cdFx0XHRcdFx0aGVpZ2h0OjE4cHg7XHJcblx0XHRcdFx0XHR3aWR0aDphdXRvO1xyXG5cdFx0XHRcdH1cclxuXHRcdFx0fVxyXG5cdFx0XHRpb24tc2VnbWVudC1idXR0b24uc2VnbWVudC1idXR0b24tY2hlY2tlZCB7XHJcblx0XHRcdFx0d2lkdGg6IDQwcHg7XHJcblx0XHRcdFx0bWluLXdpZHRoOiA0MHB4O1xyXG5cdFx0XHRcdC0taW5kaWNhdG9yLWNvbG9yOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xyXG5cdFx0XHRcdC0taW5kaWNhdG9yLWNvbG9yLWNoZWNrZWQ6IHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XHJcblx0XHRcdFx0YmFja2dyb3VuZDogI2ZmZjtcclxuXHRcdFx0XHRib3JkZXItcmFkaXVzOiA1MHB4O1xyXG5cdFx0XHRcdC0tYm9yZGVyLXJhZGl1czogNTBweDtcclxuXHRcdFx0XHQtLWNvbG9yLWNoZWNrZWQ6IHZhcigtLWlvbi1jb2xvci13aGl0ZSkhaW1wb3J0YW50O1xyXG5cdFx0XHRcdGZvbnQtd2VpZ2h0OiA1MDA7XHJcblx0XHRcdFx0aW1nIHtcclxuXHRcdFx0XHRcdGZpbHRlcjogaW52ZXJ0KDAuNSk7XHJcblx0XHRcdFx0fVxyXG5cdFx0XHR9IFxyXG5cdFx0fVxyXG5cdH1cclxuXHQuY29udC1kYXRzIHtcclxuXHRcdC50dGwtcyB7XHJcblx0XHRcdGRpc3BsYXk6IGZsZXg7XHJcblx0XHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblx0XHRcdGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuXHRcdFx0bWFyZ2luLXRvcDogMjVweDtcclxuXHRcdFx0aDMge1xyXG5cdFx0XHRcdG1hcmdpbjogMHB4O1xyXG5cdFx0XHRcdGZvbnQtc2l6ZTogMThweDtcclxuXHRcdFx0XHRmb250LXdlaWdodDogNjAwO1xyXG5cdFx0XHRcdGNvbG9yOiAjN2Q3ZDdkO1xyXG5cdFx0XHRcdHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcblx0XHRcdH1cclxuXHRcdH1cclxuXHR9XHJcblx0Lm1hcC1kYXRhIGltZyB7XHJcblx0XHR3aWR0aDogMTAwJTtcclxuXHRcdGhlaWdodDogMjQwcHg7XHJcblx0XHRvYmplY3QtZml0OiBjb3ZlcjtcclxuXHRcdG1hcmdpbi10b3A6IDIwcHg7XHJcblx0XHRib3JkZXItcmFkaXVzOiAxMHB4O1xyXG5cdH1cclxuXHRpb24tbGlzdC5saXN0LXBzdHIge1xyXG5cdFx0ZGlzcGxheTogYmxvY2s7XHJcblx0XHRtYXJnaW4tdG9wOiAyMHB4O1xyXG5cdFx0b3ZlcmZsb3c6IHZpc2libGU7XHJcblx0XHQtLW92ZXJmbG93OiB2aXNpYmxlO1xyXG5cdFx0cGFkZGluZzogMHB4O1xyXG5cdFx0aW9uLWl0ZW0ge1xyXG5cdFx0XHRib3JkZXItcmFkaXVzOiAxNXB4O1xyXG5cdFx0XHRib3gtc2hhZG93OiAwcHggMHB4IDE1cHggcmdiYSgwLCAwLCAwLCAwLjA4KTtcclxuXHRcdFx0bWFyZ2luLWJvdHRvbTogMTNweDtcclxuXHRcdFx0LS1wYWRkaW5nLXN0YXJ0OiAwcHg7XHJcblx0XHRcdC0tcGFkZGluZy1lbmQ6IDBweDtcclxuXHRcdFx0cGFkZGluZzogMTVweDtcclxuXHRcdFx0Ym9yZGVyOiAxcHggc29saWQgI2Y1ZjVmNTtcclxuXHRcdFx0aW9uLWF2YXRhciB7XHJcblx0XHRcdFx0d2lkdGg6IDY3cHg7XHJcblx0XHRcdFx0aGVpZ2h0OiA2N3B4O1xyXG5cdFx0XHRcdG1hcmdpbi1yaWdodDogMTJweDtcclxuXHRcdFx0fVxyXG5cdFx0XHRoMiB7XHJcblx0XHRcdFx0Zm9udC1zaXplOiAxOXB4O1xyXG5cdFx0XHRcdGZvbnQtd2VpZ2h0OiA2MDA7XHJcblx0XHRcdFx0Y29sb3I6IHJnYmEoMCwgMCwgMCwgMC44Nyk7XHJcblx0XHRcdFx0bWFyZ2luLWJvdHRvbTogNXB4O1xyXG5cdFx0XHRcdGltZyB7XHJcblx0XHRcdFx0XHRoZWlnaHQ6IDE5cHg7XHJcblx0XHRcdFx0XHR2ZXJ0aWNhbC1hbGlnbjogYm90dG9tO1xyXG5cdFx0XHRcdFx0bWFyZ2luLXJpZ2h0OiA1cHg7XHJcblx0XHRcdFx0fVxyXG5cdFx0XHR9XHJcblx0XHRcdGgzIHtcclxuXHRcdFx0XHRmb250LXNpemU6IDE2cHg7XHJcblx0XHRcdFx0Zm9udC13ZWlnaHQ6IDYwMDtcclxuXHRcdFx0XHRjb2xvcjogIzdkN2Q3ZDtcclxuXHRcdFx0XHRtYXJnaW4tYm90dG9tOiA3cHg7XHJcblx0XHRcdFx0aW1nIHtcclxuXHRcdFx0XHRcdGhlaWdodDogMjBweDtcclxuXHRcdFx0XHRcdHZlcnRpY2FsLWFsaWduOiBib3R0b207XHJcblx0XHRcdFx0XHRtYXJnaW4tcmlnaHQ6IDVweDtcclxuXHRcdFx0XHR9XHJcblx0XHRcdH1cclxuXHRcdFx0aW9uLWxhYmVsIHtcclxuXHRcdFx0XHRtYXJnaW46IDBweDtcclxuXHRcdFx0fVxyXG5cdFx0fVxyXG5cdH1cclxuXHRzcGFuLnNpLXNrdCB7XHJcblx0XHRtYXJnaW46IDBweDtcclxuXHRcdGltZyB7XHJcblx0XHRcdHdpZHRoOiAzMHB4O1xyXG5cdFx0fVxyXG5cdH1cclxuXHQuYWRkLW5ldy1wb3Age1xyXG5cdFx0cG9zaXRpb246IGZpeGVkO1xyXG5cdFx0dG9wOiAwO1xyXG5cdFx0bGVmdDogMDtcclxuXHRcdHJpZ2h0OiAwO1xyXG5cdFx0Ym90dG9tOiAwO1xyXG5cdFx0ei1pbmRleDogMTE7XHJcblx0XHR3aWR0aDogMTAwJTtcclxuXHRcdG1pbi1oZWlnaHQ6IDEwMCU7XHJcblx0XHRiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNTYpO1xyXG5cdFx0ZGlzcGxheTogZmxleDtcclxuXHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblx0XHRqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuXHRcdHBhZGRpbmc6IDMwcHg7XHJcblx0XHQuY29udC1ib3gge1xyXG5cdFx0XHR3aWR0aDogMTAwJTtcclxuXHRcdFx0YmFja2dyb3VuZDogI2ZmZjtcclxuXHRcdFx0cGFkZGluZzogNDVweCAyMHB4O1xyXG5cdFx0XHRib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cdFx0XHRib3gtc2hhZG93OiAwcHggMHB4IDQwcHggcmdiYSgwLCAwLCAwLCAwLjIwKTtcclxuXHRcdFx0cG9zaXRpb246cmVsYXRpdmU7XHJcblx0XHRcdHNwYW4uY2xvcy1pY29zIHtcclxuXHRcdFx0XHRwb3NpdGlvbjogYWJzb2x1dGU7XHJcblx0XHRcdFx0cmlnaHQ6IC0xNXB4O1xyXG5cdFx0XHRcdHRvcDogLTE1cHg7XHJcblx0XHRcdFx0ei1pbmRleDogMTE7XHJcblx0XHRcdFx0YmFja2dyb3VuZDogI2Y0NTI1MjtcclxuXHRcdFx0XHR3aWR0aDogMzhweDtcclxuXHRcdFx0XHRoZWlnaHQ6IDM4cHg7XHJcblx0XHRcdFx0Ym9yZGVyLXJhZGl1czogNTAlO1xyXG5cdFx0XHRcdGRpc3BsYXk6IGZsZXg7XHJcblx0XHRcdFx0YWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHRcdFx0XHRqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuXHRcdFx0XHRmb250LXNpemU6IDI2cHg7XHJcblx0XHRcdFx0Y29sb3I6ICNmZmY7XHJcblx0XHRcdH1cclxuXHRcdFx0LmNvbnQtc2Yge1xyXG5cdFx0XHRcdGlvbi1pbnB1dCwgaW9uLXNlbGVjdCB7XHJcblx0XHRcdFx0XHQtLXBhZGRpbmctc3RhcnQ6IDBweDtcclxuXHRcdFx0XHRcdGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjYWJhYmFiO1xyXG5cdFx0XHRcdFx0Zm9udC1zaXplOiAxNHB4O1xyXG5cdFx0XHRcdFx0Zm9udC13ZWlnaHQ6IDUwMDtcclxuXHRcdFx0XHRcdGNvbG9yOiAjMDAwO1xyXG5cdFx0XHRcdFx0bWFyZ2luLWJvdHRvbTogMjJweDtcclxuXHRcdFx0XHR9XHJcblx0XHRcdH1cclxuXHRcdFx0LmRhdi1nciB7XHJcblx0XHRcdFx0ICAgIGJhY2tncm91bmQ6ICNiZmJmYmY7XHJcblx0XHRcdFx0XHRjb2xvcjogI2ZmZjtcclxuXHRcdFx0XHRcdGZvbnQtc2l6ZTogMzBweDtcclxuXHRcdFx0XHRcdGJvcmRlci1yYWRpdXM6IDUwcHg7XHJcblx0XHRcdFx0XHRtYXJnaW4tdG9wOiAxM3B4O1xyXG5cdFx0XHRcdFx0dGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuXHRcdFx0XHRcdGZvbnQtd2VpZ2h0OiA2MDA7XHJcblx0XHRcdFx0XHRmbG9hdDogcmlnaHQ7XHJcblx0XHRcdFx0XHR3aWR0aDogNDJweDtcclxuXHRcdFx0XHRcdGhlaWdodDogNDJweDtcclxuXHRcdFx0XHRcdGRpc3BsYXk6IGZsZXg7XHJcblx0XHRcdFx0XHRhbGlnbi1pdGVtczogY2VudGVyO1xyXG5cdFx0XHRcdFx0anVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcblx0XHRcdH1cclxuXHRcdH1cclxuXHR9XHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "iHZD":
+/*!*****************************************************!*\
+  !*** ./src/app/join-the-walk/join-the-walk.page.ts ***!
+  \*****************************************************/
+/*! exports provided: JoinTheWalkPage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JoinTheWalkPage", function() { return JoinTheWalkPage; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _raw_loader_join_the_walk_page_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./join-the-walk.page.html */ "k1pH");
+/* harmony import */ var _join_the_walk_page_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./join-the-walk.page.scss */ "WiX0");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+
+
+
+let JoinTheWalkPage = class JoinTheWalkPage {
+    constructor() {
+        this.profiletab = "Basic";
+    }
+    ngOnInit() {
+    }
+    hide() {
+        this.hideMe = !this.hideMe;
+    }
+};
+JoinTheWalkPage.ctorParameters = () => [];
+JoinTheWalkPage = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
+        selector: 'app-join-the-walk',
+        template: _raw_loader_join_the_walk_page_html__WEBPACK_IMPORTED_MODULE_1__["default"],
+        styles: [_join_the_walk_page_scss__WEBPACK_IMPORTED_MODULE_2__["default"]]
+    })
+], JoinTheWalkPage);
+
+
+
+/***/ }),
+
+/***/ "k1pH":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/join-the-walk/join-the-walk.page.html ***!
+  \*********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!--ion-header>\r\n  <ion-toolbar>\r\n    <ion-title>adoptions</ion-title>\r\n  </ion-toolbar>\r\n</ion-header-->\r\n\r\n<ion-content>\r\n  <app-header [pageName]=\"'Join The Walk'\"> </app-header>\r\n  <div class=\"bottm-conts\">\r\n    <!-- <h4 class=\"ttl-tp\"> JOIN THE WALK </h4> -->\r\n    <div class=\"cont-calef\">\r\n      <div class=\"shr-loc\">\r\n        <h3>Share Location</h3>\r\n        <ul class=\"icons-sets\">\r\n          <li>\r\n            <span class=\"activ-ico\"><img src=\"assets/images/loc2.png\" /> </span>\r\n          </li>\r\n          <li>\r\n            <span> <img src=\"assets/images/loc1.png\" /> </span>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"grps\">\r\n        <h3 class=\"ict\">Groups</h3>\r\n        <ul class=\"div-grd\">\r\n          <li>\r\n            <img src=\"assets/images/group1.png\" />\r\n            <h4>Morning Group</h4>\r\n          </li>\r\n          <li>\r\n            <img src=\"assets/images/group2.png\" />\r\n            <h4>Town Group</h4>\r\n          </li>\r\n          <li class=\"add-ne\" (click)=\"hide()\">\r\n            <img src=\"assets/images/add.png\" />\r\n          </li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"cont-dats\">\r\n        <div class=\"ttl-s\">\r\n          <h3 class=\"ict\">NEAREST PET OWNERS</h3>\r\n          <div class=\"cont-spa\">\r\n            <ion-segment [(ngModel)]=\"profiletab\" class=\"tabs-btns\">\r\n              <ion-segment-button value=\"Basic\">\r\n                <img src=\"assets/images/map1.png\" />\r\n              </ion-segment-button>\r\n              <ion-segment-button value=\"pwd\">\r\n                <img src=\"assets/images/map2.png\" />\r\n              </ion-segment-button>\r\n            </ion-segment>\r\n          </div>\r\n        </div>\r\n        <div class=\"data-cts\">\r\n          <div [ngSwitch]=\"profiletab\">\r\n            <ion-list *ngSwitchCase=\"'Basic'\" class=\"bt-syr\">\r\n              <div class=\"map-data\">\r\n                <img src=\"assets/images/map.png\" />\r\n              </div>\r\n            </ion-list>\r\n            <ion-list *ngSwitchCase=\"'pwd'\" class=\"bt-syr\">\r\n              <ion-list class=\"list-pstr\">\r\n                <ion-item lines=\"none\">\r\n                  <ion-avatar slot=\"start\">\r\n                    <img src=\"assets/images/pet2.jpg\" />\r\n                  </ion-avatar>\r\n                  <ion-label>\r\n                    <h2>John Due</h2>\r\n                    <h3><img src=\"assets/images/route.png\" /> 3.5 kms away</h3>\r\n                  </ion-label>\r\n                  <span class=\"si-skt\" slot=\"end\">\r\n                    <img src=\"assets/images/message.png\" />\r\n                  </span>\r\n                </ion-item>\r\n                <ion-item lines=\"none\">\r\n                  <ion-avatar slot=\"start\">\r\n                    <img src=\"assets/images/pet2.jpg\" />\r\n                  </ion-avatar>\r\n                  <ion-label>\r\n                    <h2>John Due</h2>\r\n                    <h3><img src=\"assets/images/route.png\" /> 3.5 kms away</h3>\r\n                  </ion-label>\r\n                  <span class=\"si-skt\" slot=\"end\">\r\n                    <img src=\"assets/images/message.png\" />\r\n                  </span>\r\n                </ion-item>\r\n                <ion-item lines=\"none\">\r\n                  <ion-avatar slot=\"start\">\r\n                    <img src=\"assets/images/pet2.jpg\" />\r\n                  </ion-avatar>\r\n                  <ion-label>\r\n                    <h2>John Due</h2>\r\n                    <h3><img src=\"assets/images/route.png\" /> 3.5 kms away</h3>\r\n                  </ion-label>\r\n                  <span class=\"si-skt\" slot=\"end\">\r\n                    <img src=\"assets/images/message.png\" />\r\n                  </span>\r\n                </ion-item>\r\n              </ion-list>\r\n            </ion-list>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"add-new-pop\" *ngIf=\"hideMe\">\r\n    <div class=\"cont-box\">\r\n      <span class=\"clos-icos\" (click)=\"hide()\">\r\n        <ion-icon name=\"close-outline\"></ion-icon>\r\n      </span>\r\n      <div class=\"cont-sf\">\r\n        <ion-input placeholder=\"GROUP NAME\"></ion-input>\r\n      </div>\r\n      <div class=\"cont-sf\">\r\n        <ion-input placeholder=\"ADD PARTICIPANTS\"></ion-input>\r\n      </div>\r\n      <div class=\"btn-ast\">\r\n        <a href=\"javascript:void(0)\" class=\"dav-gr\" (click)=\"hide()\">\r\n          <ion-icon name=\"add-outline\"></ion-icon>\r\n        </a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</ion-content>\r\n");
+
+/***/ }),
+
+/***/ "yFZh":
+/*!*******************************************************!*\
+  !*** ./src/app/join-the-walk/join-the-walk.module.ts ***!
+  \*******************************************************/
+/*! exports provided: JoinTheWalkPageModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JoinTheWalkPageModule", function() { return JoinTheWalkPageModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic/angular */ "TEn/");
+/* harmony import */ var _join_the_walk_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./join-the-walk-routing.module */ "KQTg");
+/* harmony import */ var _join_the_walk_page__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./join-the-walk.page */ "iHZD");
+/* harmony import */ var _shared_shared_shared_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../shared/shared/shared.module */ "MfXf");
+
+
+
+
+
+
+
+
+let JoinTheWalkPageModule = class JoinTheWalkPageModule {
+};
+JoinTheWalkPageModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicModule"],
+            _join_the_walk_routing_module__WEBPACK_IMPORTED_MODULE_5__["JoinTheWalkPageRoutingModule"],
+            _shared_shared_shared_module__WEBPACK_IMPORTED_MODULE_7__["SharedModule"],
+        ],
+        declarations: [_join_the_walk_page__WEBPACK_IMPORTED_MODULE_6__["JoinTheWalkPage"]],
+    })
+], JoinTheWalkPageModule);
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=join-the-walk-join-the-walk-module.js.map
