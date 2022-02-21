@@ -148,7 +148,7 @@ let AppComponent = class AppComponent {
             },
             {
                 title: 'Settings',
-                url: '/folder/Favorites',
+                url: '/account-settings',
                 icon: 'settings',
             },
             {
@@ -193,7 +193,7 @@ let AppComponent = class AppComponent {
                     },
                     {
                         title: 'Settings',
-                        url: '/folder/Favorites',
+                        url: '/account-settings',
                         icon: 'settings',
                     },
                     {
